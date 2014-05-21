@@ -1,0 +1,20 @@
+{
+    "name": "mike-roetgers/zanox-erp-api",
+    "type": "library",
+    "description": "Zanox ERP API Client",
+    "keywords": ["zanox","erp","api","client"],
+    "homepage": "https://github.com/MikeRoetgers/zanox-erp-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mike Roetgers",
+            "email": "mike@roetgers.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {"MikeRoetgers\\": "src/MikeRoetgers"}
+    }
+}
