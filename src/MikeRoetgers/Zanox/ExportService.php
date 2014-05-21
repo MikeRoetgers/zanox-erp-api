@@ -25,7 +25,7 @@ class ExportService
     public function __construct(UserService $userService, $url = 'https://services.zanox.com/erp/v2/ExportService.asmx?WSDL')
     {
         $this->userService = $userService;
-        $this->client = new \SoapClient($url, array('trace' => true));
+        $this->client = new \SoapClient($url);
     }
 
     public function getBasket($programId, BasketFilter $filter)

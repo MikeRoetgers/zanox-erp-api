@@ -31,7 +31,7 @@ class UserService
      */
     public function __construct($username, $password, $url = 'https://services.zanox.com/erp/v2/UserService.asmx?WSDL')
     {
-        $this->client = new \SoapClient($url, array('trace' => true));
+        $this->client = new \SoapClient($url);
         $this->username = $username;
         $this->password = $password;
     }
